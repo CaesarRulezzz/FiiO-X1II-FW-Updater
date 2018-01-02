@@ -5,7 +5,6 @@ from tkinter import messagebox
 import sys
 import subprocess
 import os
-import webbrowser
 
 # read version from file
 try:
