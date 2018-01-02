@@ -33,7 +33,7 @@ for element in first_font_tag.next_elements:
     str_pos = str_var.find('http://x1pack.fiio.net')
     if str_pos > 0:
         new_str = str_var[str_pos:]
-        break;
+        break
 
 # extract version and link from html
 if len(new_str) > 1:
